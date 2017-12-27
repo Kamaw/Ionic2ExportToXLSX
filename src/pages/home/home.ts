@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NgDataGridModel } from 'angular2-datagrid';
 
 @Component({
   selector: 'page-home',
@@ -37,4 +36,9 @@ export class HomePage {
         Year  : "2017"
       }]
   }
+
+  OnExport = function(){
+      alert("hello");
+  }
+  
 }
