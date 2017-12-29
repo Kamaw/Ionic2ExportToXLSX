@@ -11,9 +11,15 @@ So it's a demo for how you can easily export data into excel file using [SheetJS
 - ### Clone repository 
 ```
 git clone https://github.com/chintansoni54/Ionic2ExportToXLSX.git
+cd Ionic2ExportToXLSX
 ```
 
 - ### Install all dependencies 
 ```
 npm install
+```
+
+- ### Run on Android device 
+```
+ionic cordova run android
 ```
